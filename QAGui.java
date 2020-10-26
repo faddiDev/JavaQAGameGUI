@@ -44,6 +44,7 @@ class QAGui extends JFrame {
 	private class ButtonHandle implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			if(e.getSource() == myButton[0]) {
+				currentScores = 0;
 				myLabel[0].setText(db.selectMultiAll()[nextScreen][0]);
 				myLabel[1].setText(db.selectMultiAll()[nextScreen][1]);
 				myLabel[2].setText(db.selectMultiAll()[nextScreen][2]);
