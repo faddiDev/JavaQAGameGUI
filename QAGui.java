@@ -58,7 +58,7 @@ class QAGui extends JFrame {
 		}
 	}
 	
-	public void showScreen() {
+	private void showScreen() {
 		int[][] lblBound = { {10,90,580,60}, {10,170,270,25}, {10,205,270,25}, {300,170,270,25}, 
 							{300,205,270,25}, {10,10,125,25}, {145,10,50,25}, {10,270,60,25} };
 		
